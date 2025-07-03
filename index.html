@@ -2,46 +2,82 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>수연의 홈페이지</title>
-        <style>
-            body {
-                  font-family: "Arial", sans-serif;
-                        background-color: #f5f5f5;
-                              color: #333;
-                                    margin: 40px;
-                                          line-height: 1.6;
-                                              }
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YOUNG AND RICH</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Noto Sans KR', sans-serif;
+      background-color: #fff;
+      color: #111;
+    }
 
-                                                  h1 {
-                                                        color: #0077cc;
-                                                            }
+    header {
+      padding: 20px 0;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+      border-bottom: 1px solid #eee;
+    }
 
-                                                                nav a {
-                                                                      display: inline-block;
-                                                                            margin-right: 15px;
-                                                                                  text-decoration: none;
-                                                                                        color: #0077cc;
-                                                                                              font-weight: bold;
-                                                                                                  }
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 15px 0;
+      border-bottom: 1px solid #eee;
+    }
 
-                                                                                                      nav a:hover {
-                                                                                                            text-decoration: underline;
-                                                                                                                }
+    nav a {
+      text-decoration: none;
+      color: #111;
+      font-weight: 500;
+      font-size: 14px;
+    }
 
-                                                                                                                    p {
-                                                                                                                          font-size: 1.1em;
-                                                                                                                              }
-                                                                                                                                </style>
-                                                                                                                                </head>
-                                                                                                                                <body>
-                                                                                                                                  <h1>나는 수연!</h1>
-                                                                                                                                    <p>💖 내 페이지에 온 걸 환영해~ 😊</p>
+    nav a:hover {
+      color: #ff4d4d;
+    }
 
-                                                                                                                                      <nav>
-                                                                                                                                          <a href="about/">About</a>
-                                                                                                                                              <a href="contact/">Contact</a>
-                                                                                                                                                  <a href="product/">Product</a>
-                                                                                                                                                    </nav>
-                                                                                                                                                    </body>
-                                                                                                                                                    </html>
+    .slider {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin: 30px 0;
+    }
+
+    .slider img {
+      width: 300px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <header>YOUNG AND RICH</header>
+
+  <nav>
+    <a href="#">MADE</a>
+    <a href="#">NEW ARRIVALS</a>
+    <a href="#">BEST</a>
+    <a href="#">OUTER</a>
+    <a href="#">TOP/TEE</a>
+    <a href="#">DRESS</a>
+    <a href="#">BOTTOM</a>
+    <a href="#">SWIMWEAR</a>
+    <a href="#">SHOES & BAG</a>
+    <a href="#">ACC</a>
+    <a href="#">📦오늘 출발</a>
+  </nav>
+
+  <section class="slider">
+    <img src="img1.jpg" alt="preview 1">
+    <img src="img2.jpg" alt="preview 2">
+    <img src="img3.jpg" alt="preview 3">
+  </section>
+
+</body>
+</html>
